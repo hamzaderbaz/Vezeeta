@@ -15,9 +15,9 @@ namespace Vezeeta.Core.Entities
         public Gender Gender { get; set; }
         public DateTime DateOfBirth { get; set; }
         
-        // Additional properties might be added based on application requirements
         
         public ICollection<Booking> Bookings { get; set; }
+
     }
 
     public enum Gender

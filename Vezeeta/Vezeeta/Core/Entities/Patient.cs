@@ -13,8 +13,8 @@ namespace Vezeeta.Core.Entities
         public Gender Gender { get; set; }
         public DateTime DateOfBirth { get; set; }
 
- 
         public ICollection<Booking> Bookings { get; set; }
+
     }
 
     public enum Gender
