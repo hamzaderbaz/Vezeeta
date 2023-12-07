@@ -15,10 +15,11 @@ namespace Vezeeta.Infrastructure.Context
         public DbSet<DiscountCode> DiscountCodes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
+        
         {
 
-            
             base.OnModelCreating(modelBuilder);
+
         }
     }
 }
